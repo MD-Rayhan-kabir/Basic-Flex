@@ -1,0 +1,21 @@
+.parent{
+    padding: 25px; 
+    background-color: burlywood;
+    display: flex; /* same line nite use kora hoi  */
+    gap: 30px; /* Line ar modhe faka jaiga nei px onujaye */
+    /* justify-content: center; jodi parent ta flex thake ta hole oi parent ar clid ke center a niye asbe {X okho bora bor nibe} */
+/* justify-content: space-around; */
+    justify-content: space-between;/*first & last ar modhe kono gap dei na only majer gula niya kaj kore */
+    height: 350px;
+     align-items: center;  
+     flex-direction: row;/*row/col borar bor center a niya ase */
+        flex-wrap:wrap ;/* onk somy hoi je amra kono gift paket korte gele giftbox baire cole jai .ota je wraping ar maje anar jono wrap kora hoi */
+
+
+}
+.child{
+    border: 2px solid rgb(15, 158, 160);
+    background-color: aqua;
+    padding: 20px;
+    font-size: 20px;
+}
